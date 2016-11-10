@@ -167,7 +167,6 @@ a loop.
 """
 #%%
 def problem1_6():
-    pass # replace this pass (a do-nothing) statement with your code
     for i in range(1, 100) :
         if i % 2 != 0 :
             print(i, end=" ")
@@ -213,9 +212,12 @@ The area of a trapezoid with bases 3.0 and 4.0 and height 8.0 is 28.0
 """  
 #%%
 def problem1_7():
-    pass # replace this pass (a do-nothing) statement with your code
-
-
+    b1 = float(input("Enter the length of one of the bases: "))
+    b2 = float(input("Enter the length of the other base: "))
+    h = float(input("Enter the height: "))
+    A = h*(b1+b2)/2
+    print("The area of a trapezoid with bases {} and {} and height {} is {}".format(b1,b2,h,A))
+    
 
 
 
