@@ -105,7 +105,7 @@ auto-grader may not give you credit.
 #%%
 def problem1_4(miles):
     feet = miles * 5280
-    print("There are {} feet in {} miles.".format(feet,miles));
+    print("There are {} feet in {} miles.".format(feet,miles))
 
 
     
@@ -127,10 +127,12 @@ Also be careful to make the phrases exactly as shown for the auto-grader.
 """
 #%%
 def problem1_5(age):
-    pass # replace this pass (a do-nothing) statement with your code
-
-
-
+    if age < 7 :
+        print("Have a glass of milk.")
+    elif age < 21 :
+        print("Have a coke.")
+    else :
+        print("Have a martini.")
 
     
 #%%
